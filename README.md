@@ -31,6 +31,15 @@ Power Bi
 * O gráfico <strong>Percentual de entregas por equipe</strong> estava com os dados corretos, porém apresentado no gráfico de pizza deixava as informações confusas, deixei as informações sendo apresentadas em um gráfico de linhas clusterizado para uma análise mais fácil ao usuário.
 * O gráfico <strong>Total de entregas por mês</strong> não estava sendo filtrado somente por mês das entregas, e sim todos os períodos como: mês, trimestre, dia.
 corrigi o erro deixando os dados do mês e ano.
-* o gráfico <strong>Total de entregas dos top 5 vendedores</strong> estava mostrando além dos 5 vendedores que mais venderam e em um gráfico de rosca deixando 
+* O gráfico <strong>Total de entregas dos top 5 vendedores</strong> estava mostrando além dos 5 vendedores que mais venderam e em um gráfico de rosca deixando 
 informações não legíveis e a mais do que necessário, deixei em formato de tabela o ranking dos 5 top vendedores criando também um rating que facilita a visualização e análise das informações.
+* O gráfico de <strong>Total de entregas com atraso por cidade</strong> não estava sendo filtrado somente as entregas com atraso, e também não estava bem apresentado em um gáfico de barras, tive que tomar a decisão de deixa-lo em forma de tabela, pois a quantidade de informação solicitada não estava sendo bem representada por nenhum tipo de gráfico.
+* Por fim o gráfico de <strong>Percentual por status de entrega</strong> não estava em formato de porcentagem, onde foi feita a correção do mesmo.
+* Criei três cards com informações relevantes e de rápida visualização e também uma segmentação de anos para uma melhor análise anual.
 
+## Resultado das correções 
+E esse foi o resultado obtido após a finalização do desafio
+![resultadodsa](https://user-images.githubusercontent.com/124627259/223010563-43e11b63-83f7-41ef-9b2a-e6bf200d622d.PNG)
+
+## Diagrama após correções
+![diagramacorrigido](https://user-images.githubusercontent.com/124627259/223011137-3770f299-409f-44e5-96b4-706d94c09562.PNG)
