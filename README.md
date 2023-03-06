@@ -1,2 +1,36 @@
-# Dashboard-logistica
-Dashboard de logística utilizando Power BI
+# Projeto: Dashboard-logistica
+## Introdução
+Esse Projeto foi um desafio feito pela DSA, onde eles nos deram um dashboard que precisava ser reconstruído,
+afim de identificar e corrigir os erros e problemas que o mesmo continha, entregando uma nova versão.
+<br>
+ps: Todos os erros e problemas precisavam ser justificados.
+<br>
+As perguntas de négocios que precisavam ser respondidas:
+* Qual é o total de entregas por canal de entrega ?
+* Qual é o Percentual de Entregas por equipe ?
+* Qual é o total de entregas por mês ?
+* Qual é o total de entregas dos Top 5 vendedores ?
+* Qual é o total de entregas com atrazo por cidade ?
+* Qual é o percentual de entregas por status de entrega ?
+
+## Ferramentas utilizadas:
+Power Bi
+
+## Diagrama dos dados
+![diagramadsa](https://user-images.githubusercontent.com/124627259/223005279-b9ba279d-db9e-4c01-a8f7-acfa25572baf.PNG)
+
+
+## Dashboard apresentado pela DSA para a correção
+![errodsa](https://user-images.githubusercontent.com/124627259/223004733-4933447f-3cd9-4949-82fd-2c1693e1d09f.PNG)
+
+
+
+## Resolução dos problemas:
+* Primeiramente foi corrigido o erro de "alterações pendentes" o caminho para a base de dados estava incorreto, nessecitando a correção para a pasta certa
+* O primeiro gráfico a ser corrigido foi de <strong>Total de entregas no prazo por canal de entrega</strong> onde o mesmo estava fazendo a contagem do status de entrega e não a somatória, foi criado uma medida dax com a soma das entregas feitas no prazo para que o erro fosse corrigido.
+* O gráfico <strong>Percentual de entregas por equipe</strong> estava com os dados corretos, porém apresentado no gráfico de pizza deixava as informações confusas, deixei as informações sendo apresentadas em um gráfico de linhas clusterizado para uma análise mais fácil ao usuário.
+* O gráfico <strong>Total de entregas por mês</strong> não estava sendo filtrado somente por mês das entregas, e sim todos os períodos como: mês, trimestre, dia.
+corrigi o erro deixando os dados do mês e ano.
+* o gráfico <strong>Total de entregas dos top 5 vendedores</strong> estava mostrando além dos 5 vendedores que mais venderam e em um gráfico de rosca deixando 
+informações não legíveis e a mais do que necessário, deixei em formato de tabela o ranking dos 5 top vendedores criando também um rating que facilita a visualização e análise das informações.
+
